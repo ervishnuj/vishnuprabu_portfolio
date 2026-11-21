@@ -360,6 +360,11 @@ function App() {
             GitHub Profile
           </a>
         </p>
+        <a href="/Vishnuprabu_SJ_ITOT_Integration_Engineer.pdf"
+          download
+          className="secondary-btn">
+            Download Resume
+        </a>
       </section>
 
       <footer>
