@@ -242,6 +242,27 @@ function App() {
               <li>Downtime history and duration tracking</li>
             </ul>
 
+            <div className="project-gallery">
+  <img
+    src="/images/01-dashboard-overview.png"
+    alt="Industrial Machine Monitoring Dashboard"
+  />
+  <img
+    src="/images/02-live-analytics.png"
+    alt="Industrial Machine Live Analytics"
+  />
+
+  <img
+    src="/images/03-alert-history.png"
+    alt="Industrial Machine Alerts"
+  />
+
+  <img
+    src="/images/04-downtime-history.png"
+    alt="Industrial Machine Status and Downtime"
+  />
+</div>
+
             <div className="tech-stack">
               <span>C#</span>
               <span>.NET 8</span>
