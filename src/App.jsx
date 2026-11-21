@@ -13,6 +13,7 @@ function App() {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
@@ -36,6 +37,7 @@ function App() {
             and solutions connecting industrial technology
             with modern software.
           </p>
+          
 
           <div className="hero-buttons">
             <a href="#projects" className="primary-btn">
@@ -92,6 +94,73 @@ function App() {
           automation, and backend application development.
         </p>
       </section>
+
+
+{/* Professional Experience */}
+<section className="section" id="experience">
+  <h2>Professional Experience</h2>
+
+  <div className="experience-timeline">
+
+    <div className="experience-card">
+      <div className="experience-header">
+        <h3>SN Engineering</h3>
+        <span>Industrial Engineering</span>
+      </div>
+
+      <p className="experience-period">
+        Industrial Maintenance & Automation
+      </p>
+
+      <ul>
+        <li>Industrial electrical maintenance and troubleshooting.</li>
+        <li>Machine fault identification and maintenance support.</li>
+        <li>Electrical systems and automation-related troubleshooting.</li>
+        <li>Applying software and engineering knowledge to industrial problems.</li>
+      </ul>
+    </div>
+
+    <div className="experience-card">
+      <div className="experience-header">
+        <h3>Zoho Corporation</h3>
+        <span>Software Debug Engineer</span>
+      </div>
+
+      <p className="experience-period">
+        May 2022 – October 2025
+      </p>
+
+      <ul>
+        <li>Investigated customer-reported software issues and production incidents.</li>
+        <li>Performed debugging, issue analysis and root cause investigation.</li>
+        <li>Worked with Java, SQL, MySQL, REST APIs and Postman.</li>
+        <li>Analyzed logs, API responses, database records and application behaviour.</li>
+        <li>Collaborated with development and QA teams to resolve issues.</li>
+        <li>Worked with Zoho CRM, Zoho Desk and integrations.</li>
+      </ul>
+    </div>
+
+    <div className="experience-card">
+      <div className="experience-header">
+        <h3>SH Electronics</h3>
+        <span>Electrical & Mechanical Maintenance</span>
+      </div>
+
+      <p className="experience-period">
+        2018 – 2021
+      </p>
+
+      <ul>
+        <li>Supported electrical and mechanical maintenance of industrial machines.</li>
+        <li>Performed preventive and periodic maintenance activities.</li>
+        <li>Troubleshot machine electrical faults and control circuit issues.</li>
+        <li>Identified PLC output, power supply, emergency stop and interlock-related faults.</li>
+        <li>Supported machine uptime and maintenance activities.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
 
       {/* Skills */}
       <section className="section" id="skills">

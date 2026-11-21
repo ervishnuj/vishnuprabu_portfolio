@@ -400,3 +400,68 @@ footer {
     padding: 20px;
   }
 }
+
+/* Professional Experience */
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 950px;
+}
+
+.experience-card {
+  background: #111827;
+  border: 1px solid #1e293b;
+  border-left: 4px solid #38bdf8;
+  border-radius: 12px;
+  padding: 28px;
+  transition: 0.3s;
+}
+
+.experience-card:hover {
+  border-color: #38bdf8;
+  transform: translateX(4px);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.experience-header h3 {
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.experience-header span {
+  color: #38bdf8;
+  font-size: 14px;
+}
+
+.experience-period {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+  color: #cbd5e1;
+  line-height: 2;
+}
+
+@media (max-width: 600px) {
+  .experience-card {
+    padding: 20px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
