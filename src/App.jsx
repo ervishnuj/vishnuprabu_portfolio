@@ -242,6 +242,25 @@ function App() {
               <li>Downtime history and duration tracking</li>
             </ul>
 
+            
+
+            <div className="tech-stack">
+              <span>C#</span>
+              <span>.NET 8</span>
+              <span>MySQL</span>
+              <span>React</span>
+              <span>Python</span>
+            </div>
+
+            <a
+              href="https://github.com/ervishnuj/industrial-machine-monitoring"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              GitHub Repository →
+            </a>
+
             <div className="project-gallery">
   <img
     src="/images/01-dashboard-overview.png"
@@ -263,22 +282,6 @@ function App() {
   />
 </div>
 
-            <div className="tech-stack">
-              <span>C#</span>
-              <span>.NET 8</span>
-              <span>MySQL</span>
-              <span>React</span>
-              <span>Python</span>
-            </div>
-
-            <a
-              href="https://github.com/ervishnuj/industrial-machine-monitoring"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              GitHub Repository →
-            </a>
           </div>
         </div>
       </section>
