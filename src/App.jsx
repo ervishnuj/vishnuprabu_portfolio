@@ -121,6 +121,24 @@ function App() {
     </div>
 
     <div className="experience-card">
+  <div className="experience-header">
+    <h3>Freelance Software Developer</h3>
+    <span>Web Development & IIoT Projects</span>
+  </div>
+
+  <p className="experience-period">Freelance Projects & Independent Development</p>
+
+  <ul>
+    <li>Developed web applications using React, Java, Spring Boot and .NET.</li>
+    <li>Built responsive websites for business and healthcare use cases.</li>
+    <li>Developed REST APIs and integrated backend services with frontend applications.</li>
+    <li>Created an Industrial Machine Monitoring application with live sensor data, alerts and downtime tracking.</li>
+    <li>Worked with MySQL databases, API testing and application deployment.</li>
+    <li>Designed and developed projects independently from requirements to deployment.</li>
+  </ul>
+</div>
+
+    <div className="experience-card">
       <div className="experience-header">
         <h3>Zoho Corporation</h3>
         <span>Software Debug Engineer</span>
