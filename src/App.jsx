@@ -129,7 +129,7 @@ function App() {
   <p className="experience-period">Freelance Projects & Independent Development</p>
 
   <ul>
-    <li>Developed web applications using React, Java, Spring Boot and .NET.</li>
+    <li>Developed web applications using React, Java, Spring Boot, C# and .NET.</li>
     <li>Built responsive websites for business and healthcare use cases.</li>
     <li>Developed REST APIs and integrated backend services with frontend applications.</li>
     <li>Created an Industrial Machine Monitoring application with live sensor data, alerts and downtime tracking.</li>
