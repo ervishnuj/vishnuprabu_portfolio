@@ -151,7 +151,7 @@ function App() {
       <ul>
         <li>Investigated customer-reported software issues and production incidents.</li>
         <li>Performed debugging, issue analysis and root cause investigation.</li>
-        <li>Worked with Java, SQL, MySQL, REST APIs and Postman.</li>
+        <li>Worked with Java, C#, SQL, MySQL, REST APIs and Postman.</li>
         <li>Analyzed logs, API responses, database records and application behaviour.</li>
         <li>Collaborated with development and QA teams to resolve issues.</li>
         <li>Worked with Zoho CRM, Zoho Desk and integrations.</li>
